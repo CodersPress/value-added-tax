@@ -4,7 +4,7 @@
 if ( ! defined( 'ABSPATH' ) )
 	return;
 
-class WP_CHF_UPDATER {
+class WP_VAT_UPDATER {
 
 	/**
 	 * @var $config the config for the updater

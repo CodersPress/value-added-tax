@@ -3,7 +3,7 @@
 Plugin Name: Value Added Tax
 Plugin URI: http://coderspress.com/
 Description: Adds VAT - Invoices template
-Version: 1.0.1
+Version: 1.0.2
 Updated: 22nd December 2015
 Author: CodersPress
 Author URI: http://coderspress.com
@@ -51,7 +51,7 @@ function vat_plugin_updater() {
 			'sslverify' => true,
 			'access_token' => 'bfc28380ba54a471c2dc7bd2211abbb5cdf76cd5',
 		);
-		new WP_CHF_UPDATER( $config );
+		new WP_VAT_UPDATER( $config );
 	}
 }
 
